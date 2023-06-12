@@ -10,7 +10,7 @@ export default function Home() {
       <Navbar/>
       <div className=" flex flex-col items-center justify-center text-center p-36">
         <p className=" text-4xl ">👋Hi, I am Taha</p>
-        <p className=" text-6xl ">I have been trying to be a good developer for +3 years.</p>
+        <p className=" text-6xl ">I have been trying to be a good developer for +2 years.</p>
         <div className=" m-4 flex flex-row gap-1 font-light">a <p className=" font-bold"> Full-Stack </p> Developer and an <p className=" font-bold"> Open-Source </p> Project Contributor.</div>
         <div className=" flex flex-row gap-6">
           <Link href={"https://github.com/sTahaDev"} className=" border-2 border-black rounded-xl w-32 h-12 flex flex-row gap-1 items-center justify-center transition-all duration-500 hover:rounded-3xl"> <AiFillGithub size={24}/> Github</Link>
