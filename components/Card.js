@@ -4,7 +4,7 @@ import React from 'react'
 const Card = ({title,desc,url,language}) => {
     
   return (
-    <div className=' flex flex-col text-left w-[55%] bg-[#ECF8F9] 
+    <div className=' flex flex-col text-left w-[45%] max-lg:w-[85%] bg-[#ECF8F9] 
                     mt-6 p-5 rounded-xl h-[180px] gap-3 justify-center
                     transition-all duration-500 hover:translate-y-[-20px] '>
         <p className='text-3xl'>{title} </p>
